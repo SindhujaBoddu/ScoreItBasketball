@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: "Arial", sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    width: 100%;
+  margin-top: auto;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Logo */
+.tour-logo {
+    height:40px;
+}
+
+
+/* Navigation */
+.nav-links {
+    list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+    cursor: pointer;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Tournament Section */
+.tournament {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #222;
+    margin-bottom: 15px;
+}
+
+/* Spacer to increase gap */
+.spacer {
+    height: 10px;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Teams */
+.teams {
+    margin-bottom: 20px;
+}
+
+.team-tag {
+    display: inline-block;
+    background: white;
+    border: 2px solid #ccc;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Matches Section */
+.matches {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.match-card {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+}
+
+.match-card h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.match-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Button Group */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.start-btn {
+    background: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-btn{
+    color:black;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

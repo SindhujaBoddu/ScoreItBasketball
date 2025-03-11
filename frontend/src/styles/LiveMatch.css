@@ -1,0 +1,176 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ccc;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-box {
+  background: #002f6c;
+  color: white;
+  padding: 5px 10px;
+}
+
+.logo-text {
+  color: #ff6600;
+  margin-left: 5px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar ul li {
+  cursor: pointer;
+}
+
+/* General Layout */
+.scoreboard-container {
+  width: 1000px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.match-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.match-score {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Timers */
+.timer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.time-display {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.controls {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.quarter {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Team Sections */
+.team-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.team-box {
+  text-align: center;
+}
+
+.score {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.timeouts,
+.fouls {
+  margin-top: 10px;
+}
+
+.timeout-box,
+.foul-box {
+  background: orange;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.timeout-btn,
+.foul-btn {
+  background: navy;
+  color: white;
+}
+
+/* Player List */
+.player-list {
+  display: block !important;
+  list-style: none;
+  padding: 0;
+  visibility:visible !important;
+}
+
+.player-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0; /* Increased padding for better spacing */
+}
+
+.player-name {
+  flex: 1;
+  font-weight: bold;
+  margin-right: 20px; /* Added margin to separate player names from buttons */
+}
+
+.player-buttons {
+  display: flex;
+  gap: 15px; /* Increased spacing between buttons */
+}
+
+.score-box {
+  background: #ddd;
+  padding: 5px 15px; /* Adjusted padding */
+  min-width: 50px;
+  text-align: center;
+  margin-left: 20px; /* Increased spacing between buttons and score */
+}
+
+/* Buttons */
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn.blue {
+  background-color: navy;
+  color: white;
+}
+
+.btn.red {
+  background-color: red;
+  color: white;
+}
+
+.btn.gray {
+  background-color: gray;
+}
+
+.btn.green {
+  background-color: green;
+  color: white;
+}

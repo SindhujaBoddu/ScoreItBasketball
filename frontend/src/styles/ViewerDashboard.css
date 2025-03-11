@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.view-logo {
+  height: 50px;
+  object-fit: contain;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  font-size: 16px;
+  font-weight: 500;
+  color: #222;
+  cursor: pointer;
+}
+
+.nav-links li:hover {
+  color: #e36b1f;
+}
+
+/* Page Title */
+.title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #121212;
+  margin-top: 30px;
+}
+
+/* Tournament List */
+.tournament-list {
+  background: #f8f9fc;
+  width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Tournament Card */
+.tournament-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #121212;
+}
+
+/* View Button */
+.view-button {
+  background: #00ff00;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.view-button:hover {
+  background: #00cc00;
+}

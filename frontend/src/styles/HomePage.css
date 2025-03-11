@@ -1,0 +1,44 @@
+.Box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.Box .home-logo {
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  background-color: #00008b;
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 90px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1e90ff;
+}
+
+.login {
+  background-color: #00008b;
+}
+
+.signup {
+  background-color: #00008b;
+}

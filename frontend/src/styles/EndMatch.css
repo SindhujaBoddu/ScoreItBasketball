@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #ffffff;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .end-logo {
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    cursor: pointer;
+  }
+  
+  .nav-links li:hover {
+    color: #e36b1f;
+  }
+  
+  /* Page Title */
+  .title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #121212;
+    margin-top: 30px;
+  }
+  
+  /* Match Box */
+  .match-box {
+    background: #f8f9fc;
+    padding: 40px;
+    width: 500px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Winner Button Row */
+  .win-button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+    width: 100%;
+  }
+  
+  /* Win Buttons */
+  .win-button {
+    background: #0000cc;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    flex: 1; /* Ensures equal width */
+    text-align: center;
+  }
+  
+  .win-button:hover,
+  .win-button.selected {
+    background: #00008b;
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    background: #0000cc;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+    width: 100%;
+  }
+  
+  .submit-button:hover {
+    background: #00008b;
+  }

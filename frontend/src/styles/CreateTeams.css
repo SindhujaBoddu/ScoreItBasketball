@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px; /* Increased horizontal padding */
+  height: 30px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .team-logo {
+    width: 150px;
+  margin-right: 50px; /* Added margin to create space between logo and nav options */
+  height: 30px;
+  }
+  
+  .brand {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .brand-bold {
+    color: #e36b1f;
+  }
+  
+  .brand-light {
+    color: #1a1a1a;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    font-size: 16px;
+    font-weight: 500;
+    color: #222;
+    cursor: pointer;
+  }
+  
+  .nav-links li:hover {
+    color: #e36b1f;
+  }
+  
+  /* Page Title */
+  .title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #121212;
+    margin-top: 30px;
+  }
+  
+  /* Form Container */
+  .form-container {
+    background: #f8f9fc;
+    padding: 30px;
+    width: 450px;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .form-section {
+    margin-bottom: 20px;
+  }
+  
+  .form-section h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #121212;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    margin-top: 5px;
+  }
+  
+  /* Buttons */
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .primary-button {
+    background: #1a1aaf;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .primary-button:hover {
+    background: #00008b;
+  }
+  
+  .schedule-button {
+    display: block;
+    margin: auto;
+    background: #1a1aaf;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .schedule-button:hover {
+    background: #00008b;
+  }
